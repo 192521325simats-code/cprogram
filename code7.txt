@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int square,cube;
+printf("square:");
+scanf("%d",& square);
+square=square*square;
+printf("cube:");
+scanf("%d",&cube);
+cube=cube*cube*cube;
+printf("square=%d,\n",square);
+printf("cube=%d",cube);
+}
